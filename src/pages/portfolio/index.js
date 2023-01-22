@@ -21,15 +21,34 @@ export const Portfolio = () => {
         </Row>
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>view project</a>
+            if(!data.frontend){ 
+              return (
+                <div key={i} className="po_item">
+                  <img src={data.img} alt="" />
+                  <div className="content">
+                    <h4>{data.title}</h4>
+                    <p style={{fontSize:'small'}}>{data.technologies}</p>
+                    {/* <p>{data.desctiption}</p> */}
+                    <a href={data.link} target='_blank'>view project</a><br />
+                    <a href={data.github} target='_blank'>view code</a>
+                  </div>
                 </div>
-              </div>
-            );
+              )
+            } else {
+              return (
+                <div key={i} className="po_item">
+                  <img src={data.img} alt="" />
+                  <div className="content">
+                    <h3>{data.title}</h3>
+                    <p style={{fontSize:'small'}}>{data.technologies}</p>
+                    {/* <p>{data.desctiption}</p> */}
+                    <a href={data.link} target='_blank'>view project</a><br />
+                    <a href={data.frontend} target='_blank'>view frontend code</a><br />
+                    <a href={data.backend} target='_blank'>view backend code</a>
+                  </div>
+                </div>
+              )
+            }
           })}
         </div>
       </Container>
