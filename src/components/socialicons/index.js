@@ -8,12 +8,20 @@ import {
   FaYoutube,
   FaTwitch,
 } from "react-icons/fa";
+import {MdOutlineMail} from "react-icons/md";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
+      {socialprofils.email && (
+          <li>
+            <a href={`mailto:${socialprofils.email}`}>
+              <MdOutlineMail />
+            </a>
+          </li>
+        )}
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
@@ -57,7 +65,7 @@ export const Socialicons = (params) => {
           </li>
         )}
       </ul>
-      <p>Follow Me</p>
+      <p></p>
     </div>
   );
 };

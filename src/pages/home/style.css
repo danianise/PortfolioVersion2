@@ -44,8 +44,7 @@ section {
     }
 }
 
-.intro_sec .text,
-.intro_sec .h_bg-image {
+.intro_sec .text, .intro_sec .h_bg-image {
     width: 50%;
 }
 
@@ -92,9 +91,11 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
-    background-position: center;
-    min-height: 700px;
+    /* background-size: cover; */
+    background-size: 330px;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    /* min-height: 700px; */
     position: relative;
 }
 
@@ -174,7 +175,7 @@ section {
     color: var(--primary-color)
 }
 
-.intro_sec .h_bg-image .block {
+.intro_sec  .block {
     bottom: 50vh;
     max-width: 220px;
     padding: 30px;
@@ -229,6 +230,6 @@ section {
     color: var(--text-color)
 }
 
-.intro_sec .h_bg-image {
+/* .intro_sec .h_bg-image {
     filter: saturate(0.5);
-}
+} */

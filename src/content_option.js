@@ -199,9 +199,8 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/danianise",
-    facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/danielleahoey/",
-    twitter: "https://twitter.com",
+    email: "danianisehoey@gmail.com"
 };
 export {
     meta,

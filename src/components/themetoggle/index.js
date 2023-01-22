@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { WiMoonAltWaningCrescent4 } from "react-icons/wi";
+import {BsToggleOn} from "react-icons/bs"
 
 
 const Themetoggle = () => {
@@ -13,7 +14,8 @@ const Themetoggle = () => {
   }, [theme]);
   return (
     <div className="nav_ac" onClick={themetoggle}>
-      <WiMoonAltWaningCrescent4 />
+      {/* <WiMoonAltWaningCrescent4 /> */}
+      <BsToggleOn/>
     </div>
   );
 };
