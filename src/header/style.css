@@ -170,7 +170,6 @@
 
 .resume-btn:hover {
     border: 1px solid var(--text-color-3);
-    background-color: grey;
 }
 
 @media (min-width: 992px) {
