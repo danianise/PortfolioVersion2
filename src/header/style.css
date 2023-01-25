@@ -161,6 +161,18 @@
     padding-left: 0;
 }
 
+.resume-btn {
+    border: 1px solid white;
+    padding-left: 10px !important; 
+    padding-right: 10px !important;
+    border-radius: 10px;
+}
+
+.resume-btn:hover {
+    border: 1px solid var(--text-color-3);
+    background-color: grey;
+}
+
 @media (min-width: 992px) {
     .menu__container {
         margin-left: 33.3333%;

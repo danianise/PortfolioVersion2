@@ -57,7 +57,7 @@
         width: unset;
         height: unset;
         position: static;
-        margin-top: unset;
+        margin-top: -30px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
