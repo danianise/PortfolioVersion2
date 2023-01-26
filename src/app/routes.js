@@ -9,6 +9,7 @@ import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const AnimatedRoutes = withRouter(({ location }) => (
+
   <TransitionGroup>
     <CSSTransition
       key={location.key}

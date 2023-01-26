@@ -9,6 +9,9 @@ import AppRoutes from "./routes";
 import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
+import ReactGA from 'react-ga4';
+const TRACKING_ID = "G-X11YJRWTJK";
+ReactGA.initialize(TRACKING_ID);
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -20,6 +23,7 @@ function _ScrollToTop(props) {
 const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="cursor__dot">
