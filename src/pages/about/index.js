@@ -50,7 +50,7 @@ let icons = [
             <div>
               <p>I am a Software Engineer Located in the Greater Boston area. My extensive customer service 
                 experience drives me to improve the well-being of others with an empathetic approach to empowerment.
-                As a career-changer I am commited to continuously learning new technologies. I am currently seeking
+                As a career-changer I am committed to continuously learning new technologies. I am currently seeking
                 the next opportunity to grow my skillset with hands-on experience.
                 <br /><br />
                 I have a Bachelor of Business Administration from the Isenberg School of Management at the 

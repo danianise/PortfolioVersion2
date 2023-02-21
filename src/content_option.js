@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "about",
-    aboutme: "I am a Software Engineer Located in the Greater Boston area. My extensive customer service experience drives me to improve the well-being of others with an empathetic approach to empowerment. As a career-changer I am commited to continuously learning new technologies. I am currently seeking the next opportunity to grow my skillset with hands-on experience. I have a Bachelor of Business Administration from the Isenberg School of Management at the University of Massachusetts, Amherst, 15 years experience in retail customer service, and I have recently completed the Software Engineering Immersive course with General Assembly. Currently I'm working freelance as a Web Developer, building e-commerce websites for small businesses. I'm a tattoo enthusiast. I'm a nerd for fantasy and sci-fi. I collect hard-cover books. My favorite author is Margaret Atwood. I have a weird knack for finding four-leaf clovers and inside the larger books on my shelf you'll find at least a hundred of them waiting to be cast in resin. I'm a mom to kids and cats, and I hope to spend the rest of my life learning and experiencing."};
+    aboutme: "I am a Software Engineer Located in the Greater Boston area. My extensive customer service experience drives me to improve the well-being of others with an empathetic approach to empowerment. As a career-changer I am committed to continuously learning new technologies. I am currently seeking the next opportunity to grow my skillset with hands-on experience. I have a Bachelor of Business Administration from the Isenberg School of Management at the University of Massachusetts, Amherst, 15 years experience in retail customer service, and I have recently completed the Software Engineering Immersive course with General Assembly. Currently I'm working freelance as a Web Developer, building e-commerce websites for small businesses. I'm a tattoo enthusiast. I'm a nerd for fantasy and sci-fi. I collect hard-cover books. My favorite author is Margaret Atwood. I have a weird knack for finding four-leaf clovers and inside the larger books on my shelf you'll find at least a hundred of them waiting to be cast in resin. I'm a mom to kids and cats, and I hope to spend the rest of my life learning and experiencing."};
 const worktimeline = [{
         jobtitle: "HTML",
         where: "",
@@ -111,22 +111,46 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
         img: "https://i.imgur.com/bkhPESF.jpg",
         title: "MockStock",
-        desctiption: "A mock-up of a stock market app that will represent the user’s portfolio",
         technologies: "HTML | EJS | CSS | JavaScript | Express | Node.js | MongoDB/Mongoose",
         link: "https://danianisemockstock.netlify.app/portfolio",
         frontend: "https://github.com/danianise/MockStockFrontend",
         backend: "https://github.com/danianise/MockStockBackend",
     },
     {
+        img: "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/279604043_5152616101428111_8379308805929904854_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=RsMktdiE11gAX_fSSrc&_nc_ht=scontent-bos5-1.xx&oh=00_AfB0fnp3O_Q-hwmCxav3eHtBG8NK8-fQdAOms6m41EKgaw&oe=63F96C30",
+        title: "Adirondack Upcycled Webstore",
+        technologies: "JavaScript | React.js | Node.js | Django | Python | PostgreSQL",
+        link: "https://friendly-cassata-7f02c1.netlify.app",
+        frontend: "https://github.com/danianise/adirondackUpcycledFront",
+        backend: "https://github.com/danianise/adirondackUpcycledBack"
+    },
+    {
         img: "https://i.imgur.com/pSDT78k.png",
         title: "[theAlumniNetwork]",
-        technologies: "JavaScript | React.js | Node.js | Django | PostgreSQL | JWT Authentication",
+        technologies: "JavaScript | React.js | Node.js | Django | Python | PostgreSQL | JWT Authentication",
         link: "https://thealumninetwork.netlify.app/",
         frontend: "https://github.com/danianise/AlumniNetworkFrontend",
         backend: "https://github.com/danianise/AlumniNetworkBackend"
+    },
+    {
+        img: "https://i.imgur.com/tZtAVdr.jpg",
+        title: "Harry Potter Trivia",
+        technologies: "HTML | CSS | JavaScript",
+        link: "https://danianise.github.io/triviagame/",
+        github: "https://github.com/danianise/triviagame",
+    },
+
+    {
+        img: "https://wallpapercrafter.com/desktop/306841-Holiday-Halloween-Phone-Wallpaper.jpg",
+        title: "Oscar's 3rd Birthday Invitation",
+        technologies: "JavaScript | React.js | Node.js | Django | Python | PostgreSQL",
+        link: "https://oscarsbirthday.netlify.app/",
+        frontend: "https://github.com/danianise/BirthdayPartyFrontend",
+        backend: "https://github.com/danianise/BirthdayPartyBackend"
     },
     {
         img: "https://i.imgur.com/I7mu3VT.jpg",
@@ -136,18 +160,6 @@ const dataportfolio = [{
         github: "https://github.com/danianise/WhatsForDinner"
 
     },
-    {
-        img: "https://i.imgur.com/tZtAVdr.jpg",
-        title: "Harry Potter Trivia",
-        technologies: "HTML | CSS | JavaScript",
-        link: "https://danianise.github.io/triviagame/",
-        github: "https://github.com/danianise/triviagame",
-    },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
     // {
     //     img: "https://picsum.photos/400/700/?grayscale",
     //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
