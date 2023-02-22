@@ -56,12 +56,13 @@
     .stick_follow_icon {
         width: unset;
         height: unset;
-        position: static;
+        position: sticky;
+        bottom: 10px;
         margin-top: unset;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        padding: 40px 0;
+        /* padding: 0px 0; */
         align-items: center;
     }
     .stick_follow_icon p {
@@ -75,9 +76,7 @@
         font-size: 17px;
         margin-right: 65px;
     }
-    /* .stick_follow_icon ul {
-        margin-bottom: 20px;
-    } */
+
     .stick_follow_icon ul li {
         display: inline;
         margin-bottom: 0px;
