@@ -114,6 +114,7 @@ const services = [{
 const dataportfolio = [
     {
         img: "https://i.imgur.com/bkhPESF.jpg",
+        // img: "https://i.imgur.com/bkhPESFb.jpg",
         title: "MockStock",
         technologies: "HTML | EJS | CSS | JavaScript | Express | Node.js | MongoDB/Mongoose",
         link: "https://danianisemockstock.netlify.app/portfolio",
@@ -121,7 +122,7 @@ const dataportfolio = [
         backend: "https://github.com/danianise/MockStockBackend",
     },
     {
-        img: "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/279604043_5152616101428111_8379308805929904854_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=RsMktdiE11gAX_fSSrc&_nc_ht=scontent-bos5-1.xx&oh=00_AfB0fnp3O_Q-hwmCxav3eHtBG8NK8-fQdAOms6m41EKgaw&oe=63F96C30",
+        img: "https://i.imgur.com/ihUQNdT.jpg",
         title: "Adirondack Upcycled Webstore",
         technologies: "JavaScript | React.js | Node.js | Django | Python | PostgreSQL",
         link: "https://friendly-cassata-7f02c1.netlify.app",
@@ -130,6 +131,7 @@ const dataportfolio = [
     },
     {
         img: "https://i.imgur.com/pSDT78k.png",
+        // img: "https://i.imgur.com/pSDT78kb.png",
         title: "[theAlumniNetwork]",
         technologies: "JavaScript | React.js | Node.js | Django | Python | PostgreSQL | JWT Authentication",
         link: "https://thealumninetwork.netlify.app/",
