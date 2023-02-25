@@ -114,7 +114,6 @@ const services = [{
 const dataportfolio = [
     {
         img: "https://i.imgur.com/bkhPESF.jpg",
-        // img: "https://i.imgur.com/bkhPESFb.jpg",
         title: "MockStock",
         technologies: "HTML | EJS | CSS | JavaScript | Express | Node.js | MongoDB/Mongoose",
         link: "https://danianisemockstock.netlify.app/portfolio",
@@ -131,7 +130,6 @@ const dataportfolio = [
     },
     {
         img: "https://i.imgur.com/pSDT78k.png",
-        // img: "https://i.imgur.com/pSDT78kb.png",
         title: "[theAlumniNetwork]",
         technologies: "JavaScript | React.js | Node.js | Django | Python | PostgreSQL | JWT Authentication",
         link: "https://thealumninetwork.netlify.app/",
