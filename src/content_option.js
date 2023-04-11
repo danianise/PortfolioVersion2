@@ -1,7 +1,7 @@
 const logotext = "DANIELLE";
 const meta = {
     title: "Danielle Hoey",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Danielle Hoey, Software Engineer, currently working in the Greater Boston area",
 };
 
 const introdata = {
