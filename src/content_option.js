@@ -8,8 +8,8 @@ const introdata = {
     title: "Danielle Hoey",
     animated: {
         first: "Software Engineer",
-        second: "Software Engineer",
-        third: "Software Engineer",
+        second: "Support Engineer",
+        third: "",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
