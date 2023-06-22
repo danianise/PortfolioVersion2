@@ -18,7 +18,13 @@ const introdata = {
 const dataabout = {
     title: "about",
     aboutme: ""};
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle: "Squish GUI Testing",
+        where: "",
+        date: "2020",
+    },
+    {
         jobtitle: "HTML",
         where: "",
         date: "2020",
