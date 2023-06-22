@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs} from 'react-icons/fa'
+import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaFrog} from 'react-icons/fa'
 import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson} from 'react-icons/si'
 import {
   dataabout,
@@ -15,6 +15,7 @@ import {
 export const About = () => {
   
 let icons = [
+  <FaFrog/>,
   <FaHtml5/>,
   <FaCss3Alt/>,
   <SiJavascript/>,
