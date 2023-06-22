@@ -48,10 +48,9 @@ let icons = [
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>I am a Software Engineer Located in the Greater Boston area. My extensive customer service 
-                experience drives me to improve the well-being of others with an empathetic approach to empowerment.
-                As a career-changer I am committed to continuously learning new technologies. I am currently seeking
-                the next opportunity to grow my skillset with hands-on experience.
+              <p>I am a Software Engineer Located in the Greater Boston area, currently working as a Support Engineer for QA Tools with the Qt Group.
+                My extensive customer service background has given me an understanding of cutomer behavior and a drive to improve the customer experience.
+                As a career-changer and a life-long learner, I am committed to continuous education and self-improvement. 
                 <br /><br />
                 I have a Bachelor of Business Administration from the Isenberg School of Management at the 
                 University of Massachusetts, Amherst, 15 years experience in retail customer service, and Certificate of
