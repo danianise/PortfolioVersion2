@@ -29,7 +29,7 @@ export const Home = () => {
                     options={{
                       strings: [
                         introdata.animated.first,
-                        // introdata.animated.second,
+                        introdata.animated.second,
                         // introdata.animated.third,
                       ],
                       autoStart: true,
